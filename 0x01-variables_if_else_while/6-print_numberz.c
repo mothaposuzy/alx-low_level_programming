@@ -6,7 +6,7 @@
  */
 
 int main(void)
-
+{
 	int c;
 
 	c = 0;
@@ -17,3 +17,4 @@ int main(void)
 		}
 	putchar('\n');
 	return (0);
+}
