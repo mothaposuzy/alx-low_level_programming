@@ -2,7 +2,7 @@
 
 /**
  * main - print _putchar
- *
+ * _putchar: print the alphabet putchar
  * Return: 0
  */
 
