@@ -1,21 +1,34 @@
 #include "main.h"
 
+/*function declaration*/
+int_putchar(char c)
 /**
- * main - print _putchar
- * _putchar: print the alphabet putchar
- * Return: 0
+ * printstr - print a string of characters to stdout
+ *@string: the string to be printed
+ *
+ * Return: the number of characters to be printed
+ */
+
+int main(char *string)
+{
+	int i;
+
+	for (i = 0; string[i] != '\0'; i++)
+		_putchar(string[i]);
+	return (0);
+}
+/**
+ *main - Entry point of a program
+ *description: use_putchar and main.h to print_putchar
+ *
+ * Return:0
  */
 
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	char *str = "_putchar";
+
+	ptrintstr(str);
+	_putchar('\n')
 	return (0);
 }
