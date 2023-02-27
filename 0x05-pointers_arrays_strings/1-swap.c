@@ -9,8 +9,9 @@
  */
 
 void swap_int(int *a, int *b)
-/* the functon that swaps the values of two integers.*/
+/* the functon that swaps the values of two integers. */
 {
 	int temp = *a;
 	*a = *b;
 	*b = temp;
+}
