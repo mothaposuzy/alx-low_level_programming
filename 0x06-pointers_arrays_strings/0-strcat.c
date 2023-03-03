@@ -1,20 +1,24 @@
 #include "main.h"
+#include<stdio.h>
+
 /**
- * _strncat - concatenate 2 strings
- * @dest: destination string
+ * _strcat - concatenated 2 strings
+ * @dest: destinaton string
  * @src: source string
- * @n: the number of btyes from src to be appended to dest
  * Return: the destination string
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
-	int index = 0, dest_len = 0;
+	int dest = 0;
+	int srclen = 0;
+	int i;
 
-	while (dest[index++])
-		dest_len++;
-	for (index = 0; src[index] && index < n; index++)
-		dest[dest_len++] = src[index];
+	for (i = 0; dest[i] != '\0'; i++)
+		destlen++;
+	for (i = 0; src[i] != '\0'; i++)
+		srclen++;
+	for (i = 0; i <= srclen; i++)
+		dest[aestlen + i] = src[i];
 	return (dest);
-
 }
