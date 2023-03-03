@@ -3,22 +3,18 @@
  * _strncat - concatenate 2 strings
  * @dest: destination string
  * @src: source string
+ * @n: the number of btyes from src to be appended to dest
  * Return: the destination string
  */
 
-char *_strncat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
-	int dest = 0;
-	int srclen = 0;
-	int i;
+	int index = 0, dest_len = 0;
 
-
-	for (i = 0; dest[i] != '\0'; i++)
-		dest++;
-	for (i = 0; src[i] != '\0'; i++)
-		srclen++;
-	for (i = 0; i <= srclen' i++)
-		dest[destlen + i] = src[i];
-	return (dest)
+	while (dest[index++])
+		dest_len++;
+	for (index = 0; src[index] && index < n; index++)
+		dest[dest_len++] = src[index];
+	return (dest);
 
 }
