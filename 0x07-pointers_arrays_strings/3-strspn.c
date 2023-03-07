@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strspn - Entry point
  * @s: input
@@ -23,7 +24,6 @@ unsigned int _strspn(char *s, char *accept)
 				value++;
 				check = 1;
 			}
-			return (n);
 		}
 	}
 }
