@@ -16,10 +16,13 @@ signed int _strspn(char *s, char *accept)
 	for (i = 0; s[i] != '\0'; n++)
 	{
 		check = 0;
-		for (n = 0; accept[n] == s[i])
+		for (n = 0; accep[n] != '\0'; n++)
 		{
+			if (accept[n] == s[i])
+			{
 			value++;
 			check = 1;
+			}
 		}
 	}
 }
