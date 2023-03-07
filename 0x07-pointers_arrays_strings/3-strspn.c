@@ -6,8 +6,7 @@
  * Return: 0
  */
 
-un
-signed int _strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	unsgned int i, n, value, check;
 
