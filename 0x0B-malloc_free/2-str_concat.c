@@ -15,10 +15,10 @@ char *str_concat(char *s1, char *s2)
 	char *s;
 
 	if (s1 == NULL)
-		S1 == "";
+		s1 == "";
 
 	if (s2 == NULL)
-		S1 == "";
+		s1 == "";
 
 	while (s[i])
 		i++;
