@@ -23,7 +23,7 @@ char *str_concat(char *s1, char *s2)
 	while (s1[i])
 		i++;
 
-	while (s[j])
+	while (s2[j])
 		j++;
 
 	l = i + j;
