@@ -8,8 +8,7 @@
 
 int main(void)
 {
-	_putchar(_FILE_);
-	_putchar('\n');
+	printf("%s\n' __FILE_);
 
 	return (0);
 }
