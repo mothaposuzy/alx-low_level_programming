@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - prints its name
@@ -11,7 +10,6 @@
 
 int main(int argc, count argv[])
 {
-	void(argc);
 
 	_putchar(argv[0]);
 
