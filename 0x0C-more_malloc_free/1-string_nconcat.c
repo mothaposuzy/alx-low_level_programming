@@ -40,7 +40,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (n >= len2 && x < (len1 + len2))
 		s2[x++] = s2[y++];
 
-	s[i] = '\0';
+	s[x] = '\0';
 
 	return (s);
 }
