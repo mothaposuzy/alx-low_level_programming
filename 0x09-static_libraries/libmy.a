@@ -16,11 +16,6 @@ int _putchar(char c)
 }
 
 
-
-
-============================
-
-
 0-isupper.c
 
 #include "main.h"
@@ -38,7 +33,6 @@ int _isupper(int c)
 	return (0);
 }
 
-============================
 
 
 0-memset.c
@@ -65,7 +59,6 @@ char *_memset(char *s, char b, unsigned int n)
 	return (s);
 }
 
-============================
 
 
 0-strcat.c
@@ -104,10 +97,6 @@ char *_strcat(char *dest, char *src)
 }
 
 
-
- ============================
-
-
 1-isdigit.c
 
 #include "main.h"
@@ -121,9 +110,6 @@ int _isdigit(int c)
 {
 	return (c >= '0' && c <= '9');
 }
-
-
- ============================
 
 
 1-memcpy.c
@@ -152,9 +138,6 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	return (dest);
 }
 
-
-
-============================
 
 1-strncat.c
 
@@ -191,10 +174,6 @@ char *_strncat(char *dest, char *src, int n)
 	return (dest);
 }
 
-
-============================
-
-
 2-strchr.c
 
 
@@ -218,11 +197,6 @@ char *_strchr(char *s, char c)
 	return (0);
 }
 
-
-
-
-
-============================
 
 2-strlen.c
 
@@ -248,12 +222,6 @@ int _strlen(char *s)
 	return (longi);
 }
 
-
-
-
-
-
-============================
 
 2-strncpy.c
 
@@ -289,8 +257,6 @@ char *_strncpy(char *dest, char *src, int n)
 }
 
 
-============================
-
 3-islower.c
 
 
@@ -304,10 +270,6 @@ int _islower(int c)
 {
 	return (c >= 'a' && c <= 'z');
 }
-
-
-
-============================
 
 3-puts.c
 
@@ -323,9 +285,6 @@ int main(void)
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
-
-
-============================
 
 
 3-strcmp.c
@@ -355,10 +314,6 @@ int _strcmp(char *s1, char *s2)
 	}
 	return (0);
 }
-
-
-
-============================
 
 3-strspn.c
 
@@ -393,11 +348,6 @@ unsigned int _strspn(char *s, char *accept)
 }
 
 
-
-
-============================
-
-
 4-isalpha.c
 
 #include "main.h"
@@ -411,10 +361,6 @@ int _isalpha(int c)
 {
 	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
-
-
-
-============================
 
 4-strpbrk.c
 
@@ -444,7 +390,6 @@ char *_strpbrk(char *s, char *accept)
 return ('\0');
 }
 
-============================
 
 5-strstr.c
 
@@ -480,8 +425,6 @@ char *_strstr(char *haystack, char *needle)
 }
 
 
-============================
-
 6-abs.c
 
 
@@ -501,13 +444,6 @@ int _abs(int n)
 	}
 	return (-n);
 }
-
-
-
-
-============================
-
-
 
 
 9-strcpy.c
@@ -537,10 +473,6 @@ char *_strcpy(char *dest, char *src)
 	dest[l] = '\0';
 	return (dest);
 }
-
-
-============================
-
 
 100-atoi.c
 
