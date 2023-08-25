@@ -1,34 +1,15 @@
 #include "main.h"
+#include <unistd.h>
 
-/*function declaration*/
-int_putchar(char c)
 /**
- * main - print a string of characters to stdout
- *@string: the string to be printed
- *
- * Return: the number of characters to be printed
- */
+* _putchar - writes the character c to stdout
+* @c: The character to print
+*
+* Return: On success 1.
+* On error, -1 is returned, and errno is set appropriately.
+*/
 
-int main(char *string)
+int _putchar(char c)
 {
-	int i;
-
-	for (i = 0; string[i] != '\0'; i++)
-		_putchar(string[i]);
-	return (0);
-}
-/**
- *main - Entry point of a program
- *description: use_putchar and main.h to print_putchar
- *
- * Return:0
- */
-
-int main(void)
-{
-	char *str = "_putchar";
-
-	ptrintstr(str);
-	_putchar('\n')
-	return (0);
+	return (write(1, &c, 1));
 }
