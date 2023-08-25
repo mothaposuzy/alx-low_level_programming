@@ -3,7 +3,7 @@
 /*function declaration*/
 int_putchar(char c)
 /**
- * printstr - print a string of characters to stdout
+ * main - print a string of characters to stdout
  *@string: the string to be printed
  *
  * Return: the number of characters to be printed
