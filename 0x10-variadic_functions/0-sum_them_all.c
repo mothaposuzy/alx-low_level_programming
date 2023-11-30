@@ -6,7 +6,7 @@
  * Return: sum
  */
 
-int sum_them_all(const unsigned int n, ...);
+int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int sum = 0;
 	unsigned int i;
@@ -25,6 +25,8 @@ int sum_them_all(const unsigned int n, ...);
 		{
 			sum += va_arg(holder, const unsigned int);
 		}
-		va_end(holder);
-		return (sum);
+	}
+
+	va_end(holder);
+	return (sum);
 }
